@@ -23,12 +23,6 @@ export default function Header() {
             <Link href="/blog" className="text-gray-600 hover:text-brand-500 font-medium transition-colors">
               Blog
             </Link>
-            <Link href="/guias" className="text-gray-600 hover:text-brand-500 font-medium transition-colors">
-              Guías
-            </Link>
-            <Link href="/herramientas" className="text-gray-600 hover:text-brand-500 font-medium transition-colors">
-              Herramientas
-            </Link>
             <a href="https://chat.whatsapp.com/ENLACE_AQUI" target="_blank" rel="noopener noreferrer" className="btn-primary py-2 px-5 text-sm">
               📅 Clase gratis — Miércoles 19h
             </a>
@@ -50,8 +44,6 @@ export default function Header() {
         {menuOpen && (
           <div className="md:hidden py-4 border-t border-gray-100 flex flex-col gap-3">
             <Link href="/blog" className="text-gray-600 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>Blog</Link>
-            <Link href="/guias" className="text-gray-600 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>Guías</Link>
-            <Link href="/herramientas" className="text-gray-600 font-medium px-2 py-1" onClick={() => setMenuOpen(false)}>Herramientas</Link>
             <a href="https://chat.whatsapp.com/ENLACE_AQUI" target="_blank" rel="noopener noreferrer" className="btn-primary text-center text-sm" onClick={() => setMenuOpen(false)}>📅 Clase gratis — Miércoles 19h</a>
           </div>
         )}

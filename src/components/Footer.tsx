@@ -25,9 +25,6 @@ export default function Footer() {
             <h3 className="text-white font-bold mb-4">Contenido</h3>
             <ul className="space-y-2 text-sm">
               <li><Link href="/blog" className="hover:text-white transition-colors">Últimos artículos</Link></li>
-              <li><Link href="/guias" className="hover:text-white transition-colors">Guías completas</Link></li>
-              <li><Link href="/herramientas" className="hover:text-white transition-colors">Herramientas</Link></li>
-              <li><Link href="/glosario" className="hover:text-white transition-colors">Glosario TikTok Shop</Link></li>
             </ul>
           </div>
 
