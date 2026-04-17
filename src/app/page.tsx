@@ -63,7 +63,7 @@ const featuredPosts = [
 
 const stats = [
   { value: '1.500M+', label: 'Usuarios activos en TikTok' },
-  { value: '112.000M$', label: 'GMV proyectado TikTok Shop 2026' },
+  { value: '64.300M$', label: 'GMV global TikTok Shop en 2025' },
   { value: '10x', label: 'Más conversión con Live Shopping' },
   { value: '#1', label: 'Blog TikTok Shop en español' },
 ]

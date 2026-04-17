@@ -179,7 +179,7 @@ Es un modelo que no existía hace tres años en el mercado hispano. Y la ventana
 ## TikTok Shop en cifras: por qué esto no es una tendencia pasajera
 
 - **1.500 millones** de usuarios activos en TikTok
-- **112.000 millones de dólares** de GMV proyectado en TikTok Shop para 2026
+- **64.300 millones de dólares** de GMV global de TikTok Shop en 2025 (+94% vs 2024)
 - **58%** de los usuarios de TikTok ya ha comprado en la app
 - **10x** más conversión con Live Shopping vs e-commerce tradicional
 - **Primer país de LatAm** en lanzar TikTok Shop (febrero 2025)
@@ -477,7 +477,7 @@ Los números no mienten. Según datos de TikTok de principios de 2026:
 - El Live Shopping genera **10 veces más conversión** que una tienda online convencional
 - Los directos de TikTok Shop tienen **10-15 veces más engagement** que los posts de producto estáticos
 - Los eventos de Live Shopping **se duplicaron** durante el Black Friday 2025
-- El GMV global de TikTok Shop proyectado para 2026 supera los **112.000 millones de dólares**, y el Live Shopping es el principal motor
+- El GMV global de TikTok Shop en 2025 fue de **64.300 millones de dólares** (+94% vs 2024), y el Live Shopping es el principal motor de crecimiento
 
 El directo no es solo una característica más. En TikTok Shop, es **el canal de ventas más potente disponible para cualquier vendedor o afiliado**, independientemente de su tamaño.
 
