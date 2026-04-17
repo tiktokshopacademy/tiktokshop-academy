@@ -264,4 +264,142 @@ Para transferencias SEPA directas, no hay comisión por parte de TikTok. Si usas
     `,
   },
 
+  'tiktok-shop-es-gratis-costes-reales': {
+    title: '¿TikTok Shop es Gratis? Costes Reales para Afiliados y Vendedores 2026',
+    description: 'Respuesta directa: TikTok Shop es completamente gratis para afiliados. Para vendedores, hay una comisión del 9% sobre ventas. Desglose completo de todos los costes reales en España.',
+    category: 'Empezar desde cero',
+    readTime: '8 min',
+    emoji: '💡',
+    date: '2026-04-17',
+    keywords: ['tiktok shop es gratis', 'tiktok shop cuesta dinero', 'tiktok shop da dinero', 'costes tiktok shop', 'tiktok shop para ganar dinero', 'tiktok shop gratis afiliado', 'cuanto cuesta tiktok shop'],
+    coverImage: 'https://images.unsplash.com/photo-1579621970563-ebec7560ff3e?w=1200&q=80',
+    coverAlt: 'TikTok Shop es gratis para afiliados — costes reales 2026',
+    content: `
+La pregunta más frecuente antes de empezar: **¿TikTok Shop cuesta dinero?** La respuesta depende de qué quieres hacer en la plataforma. Te la doy directa.
+
+## La respuesta rápida
+
+| Perfil | ¿Cuesta dinero? |
+|--------|----------------|
+| **Afiliado** | ✅ Completamente gratis |
+| **Vendedor** | 9% de comisión sobre cada venta |
+| **Comprador** | Gratis (pagas solo el producto) |
+
+Si quieres ganar dinero como **afiliado**, no necesitas pagar absolutamente nada. Cero euros de inversión inicial.
+
+Si quieres **vender tus propios productos**, TikTok no cobra por abrir la tienda, pero sí una comisión del 9% sobre cada venta que hagas.
+
+---
+
+## TikTok Shop para afiliados: coste cero
+
+El programa de afiliados de TikTok Shop es **100% gratuito**. No hay:
+
+- ❌ Cuota de suscripción
+- ❌ Cuota de inscripción al programa
+- ❌ Comisión que TikTok te cobre a ti (el afiliado)
+- ❌ Inversión en publicidad obligatoria
+- ❌ Coste por etiquetar productos en tus videos
+
+Tú creas contenido, etiquetas productos y ganas comisiones cuando alguien compra. TikTok cobra al vendedor, no a ti.
+
+Las comisiones que ganas las fija cada vendedor, y oscilan entre el **5% y el 80%** del precio del producto. En categorías como belleza o suplementos, lo habitual está entre el 15% y el 30%.
+
+![Afiliado de TikTok Shop sin coste de inversión](https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=800&q=80)
+
+### ¿Hay algún gasto indirecto como afiliado?
+
+Técnicamente sí, aunque son opcionales:
+
+- **Muestras de productos**: algunos afiliados compran los productos para probarlos antes de grabar. No es obligatorio — muchos vendedores las envían gratis a afiliados con buena tracción.
+- **Equipo de grabación**: un móvil con buena cámara es suficiente. No necesitas cámara profesional.
+- **Gestoría**: si tus ingresos crecen y necesitas facturar, tendrás gastos fiscales. Pero eso significa que ya estás ganando dinero.
+
+En resumen: puedes empezar a ser afiliado de TikTok Shop **con el móvil que ya tienes y cero euros**.
+
+---
+
+## TikTok Shop para vendedores: los costes reales
+
+Si tienes productos propios y quieres venderlos en TikTok Shop, aquí están todos los costes que debes tener en cuenta en España:
+
+### 1. Comisión de plataforma (el coste principal)
+
+Desde el **8 de enero de 2026**, TikTok cobra a los vendedores en España una comisión del **9%** sobre el precio de venta de cada producto.
+
+**Incentivo para nuevos vendedores**: si es tu primera tienda en TikTok Shop dentro de la UE, pagas solo el **4% durante los primeros 60 días**, siempre que publiques al menos 5 productos en los primeros 15 días.
+
+| Situación | Comisión |
+|-----------|---------|
+| Vendedor estándar | 9% |
+| Nuevo vendedor (primeros 60 días) | 4% |
+| Electrónica y algunas subcategorías | 7% |
+| Alta de tienda | Gratis |
+
+### 2. Publicidad (opcional)
+
+TikTok tiene su propio sistema de anuncios. No es obligatorio — muchos vendedores generan ventas únicamente con contenido orgánico y colaboraciones con afiliados. Si decides usarlo, el presupuesto mínimo de campaña es de **20€/día**.
+
+### 3. Costes de logística
+
+Dependen de si gestionas el envío tú mismo o usas el servicio de TikTok:
+
+- **Envío propio**: tus tarifas habituales con tu transportista
+- **Fulfilled by TikTok (FBT)**: TikTok gestiona almacenamiento, empaquetado y envío. Coste adicional variable según peso y volumen.
+
+### 4. Comisiones a afiliados (opcional pero recomendado)
+
+Defines tú mismo qué comisión ofreces a los creadores que promocionen tus productos. Cuanto más alta, más afiliados querrán trabajar contigo. Solo pagas si hay venta.
+
+![Costes de vender en TikTok Shop España 2026](https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80)
+
+---
+
+## Comparativa con otras plataformas
+
+Para entender si el 9% es caro o barato:
+
+| Plataforma | Comisión plataforma | Alta |
+|------------|--------------------|----|
+| TikTok Shop España | 9% | Gratis |
+| Amazon | 8–15% según categoría | Gratis (plan individual) |
+| Etsy | 6,5% + 0,20€ por listado | Gratis |
+| Shopify | 0% (pagas suscripción) | Desde 29$/mes |
+| Wallapop negocios | 8% | Gratis |
+
+El 9% es competitivo considerando que TikTok te da acceso orgánico a más de 1.500 millones de usuarios sin pagar publicidad.
+
+---
+
+## ¿TikTok Shop da dinero de verdad?
+
+Sí, y los datos lo confirman:
+
+- El GMV global de TikTok Shop en 2025 fue de **64.300 millones de dólares** (+94% vs 2024)
+- En España, miles de vendedores y afiliados generan ingresos desde diciembre de 2024
+- El modelo de afiliado tiene casos documentados de personas que facturan más de **5.000€/mes** sin haber invertido nada al inicio
+
+La plataforma genera ingresos reales. Lo que varía es cuánto y en cuánto tiempo, que depende de la constancia y la estrategia.
+
+---
+
+## Preguntas frecuentes
+
+**¿TikTok Shop cobra por abrir una tienda?**
+No. El registro y apertura de tienda son completamente gratuitos. Solo pagas comisión cuando realizas ventas.
+
+**¿Puedo ganar dinero en TikTok Shop sin vender nada propio?**
+Sí, exactamente eso hace el programa de afiliados. Promocionas productos de otros y cobras comisión por cada venta que generas.
+
+**¿La comisión del 9% se aplica también al envío?**
+Sí, se calcula sobre el precio del producto más los gastos de envío cobrados al cliente. Si ofreces envío gratis, solo se aplica sobre el precio del producto.
+
+**¿Hay costes ocultos en TikTok Shop?**
+No. El 9% de comisión es el único coste fijo para vendedores. La publicidad y el fulfillment son completamente opcionales.
+
+**¿Los afiliados pagan algo si el comprador devuelve el producto?**
+No. Las devoluciones las gestiona TikTok con el vendedor. Al afiliado solo se le descuenta la comisión de esa venta específica, sin penalización adicional.
+    `,
+  },
+
 }

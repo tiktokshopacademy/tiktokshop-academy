@@ -57,6 +57,15 @@ const allPosts = [
     date: '2026-04-07',
   },
   {
+    slug: 'tiktok-shop-es-gratis-costes-reales',
+    title: '¿TikTok Shop es Gratis? Costes Reales para Afiliados y Vendedores 2026',
+    description: 'Para afiliados: completamente gratis. Para vendedores: 9% de comisión sobre ventas. Desglose completo de todos los costes reales en España y comparativa con Amazon.',
+    category: 'Empezar desde cero',
+    readTime: '8 min',
+    emoji: '💡',
+    date: '2026-04-17',
+  },
+  {
     slug: 'como-activar-tiktok-shop-afiliados',
     title: 'Cómo Activar TikTok Shop Afiliados: Guía Paso a Paso 2026',
     description: 'Guía completa para activar el programa de afiliados de TikTok Shop en España. Requisitos, dónde se activa en la app, qué pasa si te rechazan y cómo empezar desde el primer día.',
