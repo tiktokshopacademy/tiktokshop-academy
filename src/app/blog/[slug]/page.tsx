@@ -4,6 +4,7 @@ import type { Metadata } from 'next'
 import { postsAfiliados } from '../data/posts-afiliados'
 import { postsAfiliados2 } from '../data/posts-afiliados2'
 import { postsAfiliados3 } from '../data/posts-afiliados3'
+import { postsCatAfiliados } from '../data/posts-cat-afiliados'
 import { postsVendedores } from '../data/posts-vendedores'
 
 const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
@@ -1313,7 +1314,7 @@ Si quieres que te ayudemos a decidir qué modelo es el mejor para ti, ven a la c
   },
 }
 
-const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsVendedores }
+const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsCatAfiliados, ...postsVendedores } as Record<string, typeof posts[keyof typeof posts]>
 
 type Props = { params: { slug: string } }
 
