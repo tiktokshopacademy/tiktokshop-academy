@@ -28,6 +28,9 @@ export const metadata: Metadata = {
   twitter: {
     card: 'summary_large_image',
   },
+  verification: {
+    google: 'XxgFO32fde7TWSgQ1Ag0n_MV-CSkbZu6YUVcEemj5WY',
+  },
   robots: {
     index: true,
     follow: true,
