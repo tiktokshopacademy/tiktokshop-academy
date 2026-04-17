@@ -1,6 +1,9 @@
 import Link from 'next/link'
 import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
+import { postsAfiliados } from '../data/posts-afiliados'
+import { postsAfiliados2 } from '../data/posts-afiliados2'
+import { postsVendedores } from '../data/posts-vendedores'
 
 const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
 
@@ -8,6 +11,8 @@ const posts: Record<string, {
   title: string
   description: string
   category: string
+  coverImage?: string
+  coverAlt?: string
   readTime: string
   emoji: string
   date: string
@@ -47,7 +52,7 @@ Cada cuenta tiene su propia tienda donde los usuarios pueden navegar por el cat�
 
 La situación actual por país:
 
-**España** ✅ Disponible desde octubre 2025
+**España** ✅ Disponible desde 9 de diciembre de 2024
 - Comisión de plataforma: 9% (subió del 5% en enero 2026)
 - Incentivo para nuevos vendedores: solo 4% durante los primeros 60 días
 - Formación gratuita disponible a través de la Cámara de España
@@ -77,7 +82,7 @@ Las cifras lo explican todo:
 ## ¿Quién puede usar TikTok Shop?
 
 - **Vendedores**: Personas o empresas que venden sus propios productos
-- **Afiliados**: Creadores que promocionan productos de otros a cambio de comisión (mínimo 1.000 seguidores, cuenta con 30+ días de antigüedad)
+- **Afiliados**: Creadores que promocionan productos de otros a cambio de comisión (mínimo 1.500 seguidores, cuenta con 30+ días de antigüedad)
 - **Compradores**: Cualquier usuario de TikTok
 
 ## Conclusión
@@ -194,12 +199,12 @@ El proceso es simple: encuentras un producto, lo incluyes en tus videos o direct
 ## Requisitos para ser afiliado en 2026
 
 Los requisitos mínimos son:
-- **Mínimo 1.000 seguidores** en TikTok
+- **Mínimo 1.500 seguidores** en TikTok
 - Cuenta con al menos **30 días de antigüedad**
 - Ser **mayor de 18 años**
 - Tener el perfil completo y en buen estado
 
-Si todavía no tienes 1.000 seguidores, el blog tiene una guía específica sobre cómo crecer en TikTok desde cero.
+Si todavía no tienes 1.500 seguidores, el blog tiene una guía específica sobre cómo crecer en TikTok desde cero.
 
 ## ¿Cuánto se gana como afiliado de TikTok Shop?
 
@@ -264,7 +269,7 @@ Una novedad importante de 2026 es el **sistema de Dual Commission**: los vendedo
 
 ## Conclusión
 
-El programa de afiliados de TikTok Shop es, en este momento, **una de las formas más accesibles de generar ingresos online** en el mercado hispano. Con 1.000 seguidores ya puedes empezar. Con las estrategias correctas, los resultados pueden llegar en las primeras semanas.
+El programa de afiliados de TikTok Shop es, en este momento, **una de las formas más accesibles de generar ingresos online** en el mercado hispano. Con 1.500 seguidores ya puedes empezar. Con las estrategias correctas, los resultados pueden llegar en las primeras semanas.
 
 Si quieres aprender a aplicarlo en directo, únete a nuestras clases gratuitas de los miércoles.
     `,
@@ -730,7 +735,7 @@ TikTok tiene una ventaja única sobre otras plataformas: su algoritmo puede most
 
 ## Método 1: Live Shopping desde 0 seguidores (la vía más rápida)
 
-Aunque el programa de afiliados requiere 1.000 seguidores, **no existe un mínimo de seguidores para hacer directos** como vendedor con tienda propia.
+Aunque el programa de afiliados requiere 1.500 seguidores, **no existe un mínimo de seguidores para hacer directos** como vendedor con tienda propia.
 
 Lo que muchos no saben: TikTok puede distribuir tu directo a usuarios que no te siguen si detecta que el contenido es de calidad y la gente interactúa. Esto significa que con 0 seguidores, un directo bien ejecutado puede tener 50–200 espectadores en la primera hora.
 
@@ -763,11 +768,11 @@ En 2026, el dropshipping a través de TikTok Shop funciona mejor cuando:
 - El tiempo de entrega es menor de 7 días (el cliente de TikTok no espera como en AliExpress)
 - Tienes contenido propio que demuestra el producto
 
-## Método 4: Llegar a los 1.000 seguidores rápido para activar afiliados
+## Método 4: Llegar a los 1.500 seguidores rápido para activar afiliados
 
-Si quieres acceder al programa de afiliados (el método de más bajo riesgo), el objetivo es llegar a 1.000 seguidores lo antes posible.
+Si quieres acceder al programa de afiliados (el método de más bajo riesgo), el objetivo es llegar a 1.500 seguidores lo antes posible.
 
-**Estrategia acelerada para los primeros 1.000 seguidores:**
+**Estrategia acelerada para los primeros 1.500 seguidores:**
 
 1. Publica 2–3 videos diarios durante las primeras 2 semanas
 2. Usa el **Creator Search Insights** de TikTok para encontrar las palabras clave más buscadas en tu nicho
@@ -775,7 +780,7 @@ Si quieres acceder al programa de afiliados (el método de más bajo riesgo), el
 4. Responde a TODOS los comentarios durante las primeras horas (el algoritmo lo premia)
 5. Haz un directo de al menos 30 minutos aunque sea para hablar de tu nicho sin vender
 
-Muchos creadores pasan de 0 a 1.000 seguidores en **2–4 semanas** aplicando esta estrategia consistentemente.
+Muchos creadores pasan de 0 a 1.500 seguidores en **2–4 semanas** aplicando esta estrategia consistentemente.
 
 ## Método 5: Colaboración con otros creadores
 
@@ -790,7 +795,7 @@ Con dedicación diaria (1–2 horas de trabajo en contenido), los plazos realist
 | Objetivo | Plazo realista |
 |----------|----------------|
 | Primeros 100 seguidores | 1–2 semanas |
-| Llegar a 1.000 seguidores | 3–6 semanas |
+| Llegar a 1.500 seguidores | 3–6 semanas |
 | Primeras ventas de afiliado | 4–8 semanas |
 | 500€/mes consistentes | 3–6 meses |
 
@@ -1090,7 +1095,7 @@ TikTok Shop no es solo "vender productos". En 2026 hay múltiples modelos de neg
 
 **Qué es:** Ganas comisiones promocionando productos de otros vendedores.
 
-**Requisitos:** 1.000 seguidores, 30 días de cuenta, 18+ años.
+**Requisitos:** 1.500 seguidores, 30 días de cuenta, 18+ años.
 
 **Comisiones:** Entre el 5% y el 80% según el vendedor y la categoría. Promedio típico: 10–20%.
 
@@ -1100,7 +1105,7 @@ TikTok Shop no es solo "vender productos". En 2026 hay múltiples modelos de neg
 - Creador establecido (+50K): 1.500–10.000€/mes
 
 **Ventaja:** No necesitas inversión ni inventario. El riesgo es cero.
-**Desventaja:** Necesitas mínimo 1.000 seguidores para empezar.
+**Desventaja:** Necesitas mínimo 1.500 seguidores para empezar.
 
 ## Forma #2: Tienda Propia + Contenido de Producto
 
@@ -1163,7 +1168,7 @@ El dropshipping en TikTok Shop tiene una ventaja crucial: el contenido orgánico
 ## ¿Qué modelo elegir si empiezas en 2026?
 
 **Si tienes 0 seguidores y 0 inversión:**
-Empieza con contenido de producto para crecer a 1.000 seguidores → activa afiliados → añade Live Shopping cuando tengas soltura.
+Empieza con contenido de producto para crecer a 1.500 seguidores → activa afiliados → añade Live Shopping cuando tengas soltura.
 
 **Si tienes un producto o negocio propio:**
 Abre tienda + activa afiliados desde el día 1 para que otros creadores también vendan por ti.
@@ -1188,10 +1193,12 @@ Si quieres que te ayudemos a decidir qué modelo es el mejor para ti, ven a la c
   },
 }
 
+const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsVendedores }
+
 type Props = { params: { slug: string } }
 
 export async function generateMetadata({ params }: Props): Promise<Metadata> {
-  const post = posts[params.slug]
+  const post = allPosts[params.slug]
   if (!post) return { title: 'Artículo no encontrado' }
   return {
     title: post.title,
@@ -1207,11 +1214,12 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
 }
 
 export function generateStaticParams() {
-  return Object.keys(posts).map((slug) => ({ slug }))
+  return Object.keys(allPosts).map((slug) => ({ slug }))
 }
 
 function renderContent(content: string): string {
   return content
+    .replace(/!\[(.*?)\]\((.*?)\)/g, '<img src="$2" alt="$1" class="w-full rounded-xl my-6 shadow-md" loading="lazy" />')
     .replace(/&/g, '&amp;')
     .replace(/## (.*)/g, '<h2 class="text-2xl font-black text-gray-900 mt-10 mb-4">$1</h2>')
     .replace(/### (.*)/g, '<h3 class="text-xl font-bold text-gray-900 mt-6 mb-3">$1</h3>')
@@ -1232,7 +1240,7 @@ function renderContent(content: string): string {
 }
 
 export default function BlogPost({ params }: Props) {
-  const post = posts[params.slug]
+  const post = allPosts[params.slug]
   if (!post) notFound()
 
   const jsonLd = {
@@ -1261,6 +1269,13 @@ export default function BlogPost({ params }: Props) {
           <span>›</span>
           <span className="text-gray-600">{post.category}</span>
         </nav>
+
+        {/* Cover image */}
+        {post.coverImage && (
+          <div className="mb-8 rounded-2xl overflow-hidden">
+            <img src={post.coverImage} alt={post.coverAlt || post.title} className="w-full h-64 md:h-80 object-cover" />
+          </div>
+        )}
 
         {/* Header */}
         <header className="mb-10">
@@ -1299,7 +1314,7 @@ export default function BlogPost({ params }: Props) {
         <div className="mt-12">
           <h2 className="text-xl font-black text-gray-900 mb-6">Sigue aprendiendo</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {Object.entries(posts)
+            {Object.entries(allPosts)
               .filter(([slug]) => slug !== params.slug)
               .slice(0, 4)
               .map(([slug, p]) => (
