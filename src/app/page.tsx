@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { postsAfiliados } from './blog/data/posts-afiliados'
 import { postsAfiliados2 } from './blog/data/posts-afiliados2'
+import { postsAfiliados3 } from './blog/data/posts-afiliados3'
 import { postsVendedores } from './blog/data/posts-vendedores'
 
 export const metadata: Metadata = {
@@ -77,6 +78,7 @@ function countByCategory(categoryName: string): number {
   const fromData = [
     ...Object.values(postsAfiliados),
     ...Object.values(postsAfiliados2),
+    ...Object.values(postsAfiliados3),
     ...Object.values(postsVendedores),
   ]
   const fromDataCount = fromData.filter((p) => p.category === categoryName).length

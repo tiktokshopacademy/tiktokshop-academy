@@ -3,6 +3,7 @@ import { notFound } from 'next/navigation'
 import type { Metadata } from 'next'
 import { postsAfiliados } from '../data/posts-afiliados'
 import { postsAfiliados2 } from '../data/posts-afiliados2'
+import { postsAfiliados3 } from '../data/posts-afiliados3'
 import { postsVendedores } from '../data/posts-vendedores'
 
 const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
@@ -307,7 +308,7 @@ Si tienes dudas sobre algún paso, en nuestras clases gratuitas de los miércole
     readTime: '11 min',
     emoji: '💰',
     date: '2026-01-20',
-    keywords: ['tiktok shop afiliado', 'programa afiliados tiktok shop 2026', 'ganar dinero tiktok shop afiliado', 'comisiones tiktok shop afiliado'],
+    keywords: ['tiktok shop afiliados', 'tiktok shop afiliado', 'programa afiliados tiktok', 'programa afiliados tiktok shop 2026', 'ganar dinero tiktok shop afiliado', 'comisiones tiktok shop afiliado', 'como vender como afiliado en tiktok shop'],
     content: `
 ## ¿Qué es el programa de afiliados de TikTok Shop?
 
@@ -653,7 +654,7 @@ El 80% del éxito en TikTok Shop como afiliado o vendedor viene de elegir bien e
     readTime: '10 min',
     emoji: '🇪🇸',
     date: '2026-02-15',
-    keywords: ['tiktok shop españa 2026', 'como vender tiktok shop españa', 'tiktok shop españa requisitos', 'abrir tienda tiktok shop españa'],
+    keywords: ['tiktok shop españa 2026', 'tiktok shop afiliados españa', 'como vender tiktok shop españa', 'tiktok shop españa requisitos', 'abrir tienda tiktok shop españa', 'tiktok shop desde españa'],
     content: `
 ## TikTok Shop en España: la situación en 2026
 
@@ -1312,7 +1313,7 @@ Si quieres que te ayudemos a decidir qué modelo es el mejor para ti, ven a la c
   },
 }
 
-const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsVendedores }
+const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsVendedores }
 
 type Props = { params: { slug: string } }
 

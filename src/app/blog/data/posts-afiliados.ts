@@ -7,7 +7,7 @@ export const postsAfiliados = {
     readTime: '10 min',
     emoji: '🚀',
     date: '2026-04-01',
-    keywords: ['como empezar tiktok shop afiliado', 'tiktok shop afiliado sin dinero', 'tiktok shop desde cero', 'programa afiliados tiktok shop gratis', 'empezar tiktok shop sin inversion'],
+    keywords: ['como empezar tiktok shop afiliado', 'tiktok shop afiliados', 'programa afiliados tiktok', 'tiktok shop afiliado sin dinero', 'tiktok shop desde cero', 'programa afiliados tiktok shop gratis', 'empezar tiktok shop sin inversion', 'como vender como afiliado en tiktok shop'],
     coverImage: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80',
     coverAlt: 'Persona usando TikTok Shop en su smartphone',
     content: `

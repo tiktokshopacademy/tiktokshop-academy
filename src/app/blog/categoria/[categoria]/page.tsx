@@ -2,6 +2,7 @@ import Link from 'next/link'
 import type { Metadata } from 'next'
 import { postsAfiliados } from '../../data/posts-afiliados'
 import { postsAfiliados2 } from '../../data/posts-afiliados2'
+import { postsAfiliados3 } from '../../data/posts-afiliados3'
 import { postsVendedores } from '../../data/posts-vendedores'
 
 const categoryMap: Record<string, { name: string; emoji: string; description: string }> = {
@@ -57,6 +58,7 @@ function getAllPosts() {
   const fromData = [
     ...Object.entries(postsAfiliados).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
     ...Object.entries(postsAfiliados2).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
+    ...Object.entries(postsAfiliados3).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
     ...Object.entries(postsVendedores).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
   ]
   return [...staticPosts, ...fromData]
