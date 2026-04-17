@@ -907,7 +907,7 @@ Si ya tienes Amazon funcionando, añade TikTok Shop. Si empiezas de cero, empiez
   'ia-tiktok-shop-2026': {
     title: 'IA en TikTok Shop 2026: AI Dubbing, List with AI y Agentic Commerce',
     description: 'TikTok Shop lanzó en 2026 un conjunto de herramientas de inteligencia artificial que cambian completamente cómo se crea y optimiza contenido de venta. Todo lo que necesitas saber.',
-    category: 'Herramientas',
+    category: 'Herramientas IA',
     readTime: '8 min',
     emoji: '🤖',
     date: '2026-03-10',

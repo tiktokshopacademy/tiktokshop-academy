@@ -1,5 +1,8 @@
 import Link from 'next/link'
 import type { Metadata } from 'next'
+import { postsAfiliados } from './blog/data/posts-afiliados'
+import { postsAfiliados2 } from './blog/data/posts-afiliados2'
+import { postsVendedores } from './blog/data/posts-vendedores'
 
 export const metadata: Metadata = {
   title: 'TikTok Shop Academy — Aprende a Vender en TikTok Shop en Español',
@@ -65,14 +68,30 @@ const stats = [
   { value: '#1', label: 'Blog TikTok Shop en español' },
 ]
 
-const categories = [
-  { name: 'Empezar desde cero', emoji: '🚀', href: '/blog/categoria/empezar', count: 12 },
-  { name: 'Afiliados', emoji: '🤝', href: '/blog/categoria/afiliados', count: 8 },
-  { name: 'Vendedores', emoji: '🏪', href: '/blog/categoria/vendedores', count: 15 },
-  { name: 'Live Shopping', emoji: '🔴', href: '/blog/categoria/live-shopping', count: 7 },
-  { name: 'Herramientas IA', emoji: '🤖', href: '/blog/categoria/herramientas', count: 6 },
-  { name: 'Por países', emoji: '🌍', href: '/blog/categoria/paises', count: 9 },
+const staticPostCategories = [
+  'Guía básica', 'Tutorial', 'Afiliados', 'Novedades', 'Estrategia',
+  'Productos', 'Por países', 'Por países', 'Estrategia', 'Comparativa', 'Herramientas IA', 'Estrategia', 'Ingresos',
 ]
+
+function countByCategory(categoryName: string): number {
+  const fromData = [
+    ...Object.values(postsAfiliados),
+    ...Object.values(postsAfiliados2),
+    ...Object.values(postsVendedores),
+  ]
+  const fromDataCount = fromData.filter((p) => p.category === categoryName).length
+  const staticCount = staticPostCategories.filter((c) => c === categoryName).length
+  return fromDataCount + staticCount
+}
+
+const categories = [
+  { name: 'Empezar desde cero', emoji: '🚀', href: '/blog/categoria/empezar' },
+  { name: 'Afiliados', emoji: '🤝', href: '/blog/categoria/afiliados' },
+  { name: 'Vendedores', emoji: '🏪', href: '/blog/categoria/vendedores' },
+  { name: 'Live Shopping', emoji: '🔴', href: '/blog/categoria/live-shopping' },
+  { name: 'Herramientas IA', emoji: '🤖', href: '/blog/categoria/herramientas' },
+  { name: 'Por países', emoji: '🌍', href: '/blog/categoria/paises' },
+].map((cat) => ({ ...cat, count: countByCategory(cat.name) }))
 
 const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
 

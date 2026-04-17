@@ -196,7 +196,7 @@ const allPosts = [
     slug: 'ia-tiktok-shop-2026',
     title: 'IA en TikTok Shop 2026: AI Dubbing, List with AI y Agentic Commerce',
     description: 'Las nuevas herramientas de inteligencia artificial de TikTok Shop que cambian cómo se crea contenido y se gestionan tiendas.',
-    category: 'Herramientas',
+    category: 'Herramientas IA',
     readTime: '8 min',
     emoji: '🤖',
     date: '2026-03-10',
