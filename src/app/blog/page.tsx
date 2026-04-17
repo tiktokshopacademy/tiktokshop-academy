@@ -7,7 +7,7 @@ export const metadata: Metadata = {
     'Artículos actualizados sobre TikTok Shop en 2026: cómo vender, programa de afiliados, Live Shopping, estrategias por país y todo lo que necesitas para ganar dinero en TikTok Shop.',
 }
 
-const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
+const WHATSAPP_LINK = 'https://semanal.tiktokshopacademy.es/registro?utm_source=blog'
 
 const allPosts = [
   // --- EMPEZAR DESDE CERO: AFILIADOS ---

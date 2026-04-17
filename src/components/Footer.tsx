@@ -33,12 +33,12 @@ export default function Footer() {
             <h3 className="text-white font-bold mb-4">Clases gratuitas</h3>
             <ul className="space-y-2 text-sm">
               <li>
-                <a href="https://chat.whatsapp.com/ENLACE_AQUI" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a href="https://semanal.tiktokshopacademy.es/registro?utm_source=blog" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   📅 Miércoles 19h Madrid
                 </a>
               </li>
               <li>
-                <a href="https://chat.whatsapp.com/ENLACE_AQUI" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
+                <a href="https://semanal.tiktokshopacademy.es/registro?utm_source=blog" target="_blank" rel="noopener noreferrer" className="hover:text-white transition-colors">
                   💬 Grupo de WhatsApp
                 </a>
               </li>

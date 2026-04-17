@@ -11,7 +11,7 @@ import { postsCatLive } from '../data/posts-cat-live'
 import { postsCatHerramientas } from '../data/posts-cat-herramientas'
 import { postsCatPaises } from '../data/posts-cat-paises'
 
-const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
+const WHATSAPP_LINK = 'https://semanal.tiktokshopacademy.es/registro?utm_source=blog'
 
 const posts: Record<string, {
   title: string

@@ -105,7 +105,7 @@ const categories = [
   { name: 'Por países', emoji: '🌍', href: '/blog/categoria/paises' },
 ].map((cat) => ({ ...cat, count: countByCategory(cat.name) }))
 
-const WHATSAPP_LINK = 'https://chat.whatsapp.com/ENLACE_AQUI'
+const WHATSAPP_LINK = 'https://semanal.tiktokshopacademy.es/registro?utm_source=blog'
 
 export default function HomePage() {
   return (
