@@ -21,75 +21,194 @@ const posts: Record<string, {
 }> = {
 
   'que-es-tiktok-shop': {
-    title: '¿Qué es TikTok Shop y cómo funciona en 2026?',
-    description: 'Guía completa actualizada: qué es TikTok Shop, cómo funciona en España y LatAm, quién puede usarlo y por qué es la mayor oportunidad de negocio online en 2026.',
+    title: '¿Qué es TikTok Shop? Guía Completa 2026: Compradores, Vendedores y Afiliados',
+    description: 'Todo sobre TikTok Shop en 2026: qué es, cómo funciona para compradores, vendedores y afiliados, disponibilidad en España y LatAm, y por qué el modelo de afiliado es la mayor oportunidad de negocio online del momento.',
     category: 'Guía básica',
-    readTime: '9 min',
+    readTime: '14 min',
     emoji: '🎯',
     date: '2026-01-10',
-    keywords: ['tiktok shop', 'que es tiktok shop', 'tiktok shop como funciona', 'tiktok shop españa 2026'],
+    keywords: ['que es tiktok shop', 'tiktok shop como funciona', 'tiktok shop españa 2026', 'tiktok shop afiliado que es', 'tiktok shop comprar', 'tiktok shop vender', 'tiktok shop oportunidad negocio'],
+    coverImage: 'https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=1200&q=80',
+    coverAlt: 'Qué es TikTok Shop y cómo funciona en 2026',
     content: `
+TikTok tiene más de 1.500 millones de usuarios activos en todo el mundo. En 2026, una parte enorme de esa audiencia ya no solo consume contenido: **compra dentro de la misma aplicación**. Eso es TikTok Shop, y está cambiando el comercio electrónico tal como lo conocíamos.
+
+En esta guía te explico qué es exactamente, cómo funciona para cada tipo de usuario, y por qué el **modelo de afiliado** representa una oportunidad de negocio que no existía hace dos años.
+
 ## ¿Qué es TikTok Shop?
 
-TikTok Shop es la plataforma de comercio electrónico integrada dentro de TikTok que permite a marcas, creadores de contenido y vendedores individuales **vender productos directamente desde la aplicación**, sin que el comprador tenga que salir de TikTok en ningún momento.
+TikTok Shop es la plataforma de comercio electrónico integrada dentro de TikTok. Permite a vendedores, marcas y creadores de contenido **vender productos directamente desde la app**, sin que el comprador tenga que salir en ningún momento.
 
-Desde su expansión a España en octubre de 2025 y con un crecimiento explosivo en el mercado hispano durante 2026, TikTok Shop se ha convertido en **la mayor oportunidad del comercio digital para emprendedores de habla hispana**.
+No es una redirección a Amazon ni a ninguna web externa. Es un ecosistema completo de compra-venta dentro de TikTok: catálogo, carrito, pago y logística, todo desde la misma pantalla donde ves los videos.
 
-## Cómo funciona TikTok Shop en 2026
+![TikTok Shop en acción — comercio integrado en la app](https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800&q=80)
 
-TikTok Shop opera a través de tres canales principales:
+### ¿Cuándo llegó TikTok Shop a España y LatAm?
 
-### 1. Videos en el feed con productos etiquetados
-Cuando subes un video, puedes etiquetar productos directamente. Los espectadores ven un icono de carrito y compran **sin abandonar TikTok**. El algoritmo favorece este tipo de contenido.
+- **España**: Lanzamiento oficial el **9 de diciembre de 2024**
+- **México**: Disponible desde 2023, el mercado más maduro de habla hispana
+- **Brasil**: Lanzado en mayo de 2025, crecimiento de 1M$ a 46M$ de GMV mensual en solo 3 meses
+- **Colombia y Chile**: En expansión durante 2026
 
-### 2. TikTok LIVE Shopping
-Es el formato estrella de 2026. Durante las transmisiones en directo, los vendedores muestran productos en tiempo real. Los datos son contundentes: **el Live Shopping convierte 10 veces más** que una tienda online tradicional.
+El mercado hispano está en una fase muy temprana comparado con Asia, donde TikTok Shop lleva años funcionando. Eso, como verás, es una ventaja enorme para quien entra ahora.
+
+## Cómo funciona TikTok Shop: los 3 canales de venta
+
+TikTok Shop opera a través de tres formatos principales:
+
+### 1. Videos con productos etiquetados
+Cualquier video del feed puede tener productos enlazados. El espectador ve un icono de carrito, hace clic y compra sin salir de TikTok. El algoritmo de TikTok **favorece activamente este tipo de contenido**, dándole más alcance que los videos sin productos.
+
+### 2. TikTok Live Shopping
+El formato estrella y el que más vende. Durante un directo, el vendedor o afiliado muestra productos en tiempo real, responde preguntas y ofrece descuentos exclusivos. Los datos son contundentes: **el Live Shopping convierte hasta 10 veces más** que una tienda online tradicional. La urgencia del directo y la posibilidad de ver el producto en uso dispara las compras impulsivas.
 
 ### 3. Pestaña de tienda
-Cada cuenta tiene su propia tienda donde los usuarios pueden navegar por el catálogo completo. Desde 2026, todo el proceso de pago es 100% nativo dentro de la app.
+Cada vendedor tiene una tienda propia dentro de TikTok donde cualquier usuario puede entrar, navegar por el catálogo y comprar. Desde 2026, el proceso de pago es 100% nativo en la app, con métodos de pago locales en cada país.
 
-## TikTok Shop en el mercado hispano en 2026
+---
 
-La situación actual por país:
+## TikTok Shop para compradores: ¿cómo es la experiencia?
 
-**España** ✅ Disponible desde 9 de diciembre de 2024
-- Comisión de plataforma: 9% (subió del 5% en enero 2026)
-- Incentivo para nuevos vendedores: solo 4% durante los primeros 60 días
-- Formación gratuita disponible a través de la Cámara de España
+Si eres usuario de TikTok y nunca has comprado en TikTok Shop, así funciona:
 
-**México** ✅ Mercado maduro
-- Activo desde 2023, crecimiento del 300% en vendedores
-- Comisión de plataforma: 6%
-- Todas las funciones disponibles
+1. **Ves un video** con un producto que te interesa
+2. **Tocas el icono del carrito** que aparece superpuesto en el video
+3. **Ves la ficha del producto** con precio, valoraciones y stock disponible
+4. **Compras en 3 toques** usando tu método de pago guardado
+5. **Recibes el pedido en tu domicilio** con seguimiento integrado en la app
 
-**Brasil** ✅ Lanzado mayo 2025
-- Crecimiento brutal: de 1M$ a 46M$ de GMV mensual en solo 3 meses
-- Expansión continua durante 2026
+TikTok Shop incluye sistema de valoraciones, política de devoluciones, y protección al comprador gestionada directamente por TikTok. No es diferente en seguridad a comprar en Amazon o Zalando.
 
-**Colombia y Chile** 🔄 En fase beta
-- Acceso limitado a afiliados y etiquetado de productos
-- Checkout nativo en desarrollo
+Los tiempos de entrega en España oscilan entre 3 y 7 días laborables, con opciones de envío express en productos de vendedores nacionales.
 
-## ¿Por qué TikTok Shop es la mayor oportunidad de 2026?
+![Experiencia de compra en TikTok Shop desde el móvil](https://images.unsplash.com/photo-1607082348824-0a96f2a4b9da?w=800&q=80)
 
-Las cifras lo explican todo:
+---
 
-- TikTok tiene **más de 1.500 millones de usuarios activos**
-- El GMV global de TikTok Shop en 2026 se proyecta en **112.000 millones de dólares**
-- El **58% de los usuarios de TikTok** ya compra directamente en la app
-- El mercado de e-commerce en LatAm superará el **billón de dólares en 2027**
+## TikTok Shop para vendedores: vende tus propios productos
 
-## ¿Quién puede usar TikTok Shop?
+Si tienes productos propios (fabricados, importados o de marca blanca), TikTok Shop es un canal de venta con un diferencial enorme respecto a Amazon o tu propia web: el **tráfico orgánico**.
 
-- **Vendedores**: Personas o empresas que venden sus propios productos
-- **Afiliados**: Creadores que promocionan productos de otros a cambio de comisión (mínimo 1.500 seguidores, cuenta con 30+ días de antigüedad)
-- **Compradores**: Cualquier usuario de TikTok
+En Amazon, si no inviertes en publicidad, nadie te ve. En TikTok Shop, un solo video viral puede generar cientos de ventas sin gastar un euro en anuncios.
 
-## Conclusión
+### ¿Qué necesitas para vender en TikTok Shop?
 
-TikTok Shop no es una tendencia pasajera. Es el **nuevo paradigma del comercio electrónico** y el mercado hispano todavía tiene una ventana de oportunidad enorme antes de que la competencia se dispare.
+**En España:**
+- Cuenta de TikTok con al menos 30 días de antigüedad
+- DNI o NIE válido (para personas físicas) o CIF (para empresas)
+- Cuenta bancaria española
+- Productos que cumplan con la normativa europea
 
-¿Quieres aprender a aprovecharlo? Cada miércoles a las 19h (horario Madrid) damos clases gratuitas en directo.
+**Costes para vendedores en España 2026:**
+| Concepto | Importe |
+|----------|---------|
+| Comisión de plataforma | 9% del precio de venta |
+| Nuevos vendedores (primeros 90 días) | Solo 4% |
+| Publicidad | Opcional |
+| Alta de tienda | Gratis |
+
+El gran atractivo para vendedores es que TikTok Shop gestiona los pagos, la logística (si usas su fulfillment) y tiene acceso directo a millones de usuarios activos sin coste de adquisición.
+
+---
+
+## TikTok Shop para afiliados: el modelo de negocio que está cambiando todo
+
+Aquí está la parte que más me interesa explicarte, porque es la más desconocida y probablemente **la mayor oportunidad de negocio online que existe en 2026** para una persona sin productos propios, sin inversión inicial y sin experiencia previa en comercio electrónico.
+
+### ¿Qué es un afiliado de TikTok Shop?
+
+Un afiliado de TikTok Shop es una persona que **promociona productos de otros vendedores** a través de sus videos o directos de TikTok, y recibe una **comisión por cada venta** que genera.
+
+No necesitas tener productos. No necesitas invertir dinero. No necesitas gestionar envíos ni atención al cliente. Solo necesitas crear contenido mostrando el producto y, si alguien compra a través de tu enlace, TikTok te paga automáticamente.
+
+![Afiliado de TikTok Shop creando contenido para ganar comisiones](https://images.unsplash.com/photo-1611162616305-c69b3fa7fbe0?w=800&q=80)
+
+### ¿Por qué es una oportunidad única en 2026?
+
+Tres razones concretas:
+
+**1. El mercado hispano acaba de empezar**
+TikTok Shop lleva en España desde diciembre de 2024. En Asia llevan años y la competencia es brutal. En español, el contenido de afiliados está en pañales. Los que entren ahora tienen una ventaja competitiva que desaparecerá en 12-18 meses.
+
+**2. Las comisiones son extraordinariamente altas**
+Mientras Amazon Afiliados paga entre el 1% y el 10%, TikTok Shop paga entre el **5% y el 80%** de comisión según el producto y el vendedor. En categorías como belleza, salud o suplementos, comisiones del 20-30% son habituales.
+
+**3. El tráfico orgánico de TikTok es gratuito**
+No necesitas pagar publicidad. El algoritmo de TikTok distribuye el contenido basándose en el engagement, no en la cantidad de seguidores. Una persona con 2.000 seguidores puede tener un video con 100.000 visualizaciones si el contenido es bueno.
+
+### ¿Cuánto se puede ganar como afiliado?
+
+Los rangos reales en el mercado hispano en 2026:
+
+| Nivel | Ventas mensuales | Ingresos estimados |
+|-------|-----------------|-------------------|
+| Principiante (0-3 meses) | 5-30 ventas | 50€ – 300€/mes |
+| Intermedio (3-12 meses) | 50-200 ventas | 500€ – 2.000€/mes |
+| Avanzado (+1 año) | 200-1.000+ ventas | 2.000€ – 10.000€+/mes |
+
+Estos son rangos conservadores. Existen casos documentados de afiliados hispanohablantes que superan los 15.000€ mensuales, aunque requieren dedicación y estrategia.
+
+### ¿Qué necesitas para ser afiliado de TikTok Shop?
+
+Los requisitos son deliberadamente bajos para que cualquier persona pueda empezar:
+
+- Cuenta de TikTok con **mínimo 1.500 seguidores**
+- Cuenta con al menos **30 días de antigüedad**
+- Ser **mayor de 18 años**
+- Residir en un país donde TikTok Shop esté disponible
+
+Sin inversión. Sin productos. Sin experiencia previa requerida.
+
+---
+
+## Por qué el modelo de afiliado es diferente a todo lo anterior
+
+Antes de TikTok Shop, si querías ganar dinero online sin productos propios, tenías pocas opciones:
+
+- **Dropshipping**: Requiere inversión, gestión de proveedores, atención al cliente y márgenes ajustados
+- **Amazon Afiliados**: Necesitas una web con tráfico SEO consolidado, que tarda años en construirse
+- **Infoproductos**: Necesitas audiencia y conocimientos muy específicos para crear cursos o ebooks
+- **Publicidad en redes**: Los CPM han caído y los requisitos de monetización son altos
+
+TikTok Shop afiliados elimina todas esas barreras. **El tráfico ya está en TikTok**. Los productos ya los tienen los vendedores. Tú solo necesitas conectar a los dos.
+
+Es un modelo que no existía hace tres años en el mercado hispano. Y la ventana de oportunidad es ahora.
+
+---
+
+## TikTok Shop en cifras: por qué esto no es una tendencia pasajera
+
+- **1.500 millones** de usuarios activos en TikTok
+- **112.000 millones de dólares** de GMV proyectado en TikTok Shop para 2026
+- **58%** de los usuarios de TikTok ya ha comprado en la app
+- **10x** más conversión con Live Shopping vs e-commerce tradicional
+- **300%** de crecimiento en vendedores en México en 2025
+
+Estos números no son de una startup. Son de una plataforma respaldada por ByteDance, con más de 250.000 millones de dólares de valoración, que ha decidido convertir TikTok en el mayor marketplace de comercio social del mundo.
+
+![Cifras de crecimiento de TikTok Shop a nivel global](https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80)
+
+---
+
+## Preguntas frecuentes sobre TikTok Shop
+
+**¿TikTok Shop es seguro para comprar?**
+Sí. TikTok gestiona los pagos, tiene política de devoluciones y protección al comprador similar a la de Amazon o Zalando. En Europa, opera bajo la normativa de consumidores de la UE.
+
+**¿Necesito muchos seguidores para ser afiliado?**
+No. El requisito mínimo es 1.500 seguidores, que es alcanzable en pocas semanas con la estrategia adecuada. Además, en TikTok el alcance no depende solo de los seguidores: un buen video puede llegar a miles de personas aunque tu cuenta sea pequeña.
+
+**¿Puedo ser afiliado y vendedor al mismo tiempo?**
+Sí, son modelos completamente compatibles. Muchos usuarios empiezan como afiliados y, una vez conocen el mercado, abren su propia tienda.
+
+**¿Cuánto tiempo tarda en llegar el dinero?**
+Las comisiones se liberan automáticamente 15-30 días después de que se confirma la entrega del pedido. No necesitas solicitar el pago: TikTok lo transfiere solo a tu cuenta bancaria.
+
+**¿Es TikTok Shop lo mismo en todos los países?**
+Las funciones son similares pero hay diferencias en comisiones, métodos de pago y logística según el país. España y México tienen las implementaciones más completas en el mercado hispano.
+
+**¿Se puede vivir de TikTok Shop afiliados?**
+Sí, hay personas que lo hacen. Requiere tiempo, consistencia y estrategia. No es un esquema de enriquecimiento rápido, pero sí un modelo de negocio real con potencial de ingresos significativos a medio plazo.
     `,
   },
 

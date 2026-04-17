@@ -104,10 +104,10 @@ const allPosts = [
   },
   {
     slug: 'que-es-tiktok-shop',
-    title: '¿Qué es TikTok Shop y cómo funciona en 2026?',
-    description: 'Guía completa actualizada sobre TikTok Shop en España y LatAm. Disponibilidad por países, cómo funciona y por qué es la mayor oportunidad de 2026.',
+    title: '¿Qué es TikTok Shop? Guía Completa 2026: Compradores, Vendedores y Afiliados',
+    description: 'Todo sobre TikTok Shop en 2026: qué es, cómo funciona para compradores, vendedores y afiliados, y por qué el modelo de afiliado es la mayor oportunidad de negocio online del momento.',
     category: 'Guía básica',
-    readTime: '9 min',
+    readTime: '14 min',
     emoji: '🎯',
     date: '2026-01-10',
   },

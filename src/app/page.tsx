@@ -13,10 +13,10 @@ export const metadata: Metadata = {
 const featuredPosts = [
   {
     slug: 'que-es-tiktok-shop',
-    title: '¿Qué es TikTok Shop y cómo funciona en 2026?',
-    description: 'Todo lo que necesitas saber sobre la plataforma de comercio social que ya está disponible en España y México. Guía completa actualizada.',
+    title: '¿Qué es TikTok Shop? Guía Completa 2026: Compradores, Vendedores y Afiliados',
+    description: 'Qué es TikTok Shop, cómo funciona para cada perfil y por qué el modelo de afiliado es la mayor oportunidad de negocio online en 2026.',
     category: 'Guía básica',
-    readTime: '8 min',
+    readTime: '14 min',
     emoji: '🎯',
   },
   {
