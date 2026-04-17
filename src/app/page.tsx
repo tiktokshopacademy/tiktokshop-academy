@@ -5,6 +5,10 @@ import { postsAfiliados2 } from './blog/data/posts-afiliados2'
 import { postsAfiliados3 } from './blog/data/posts-afiliados3'
 import { postsCatAfiliados } from './blog/data/posts-cat-afiliados'
 import { postsVendedores } from './blog/data/posts-vendedores'
+import { postsCatVendedores } from './blog/data/posts-cat-vendedores'
+import { postsCatLive } from './blog/data/posts-cat-live'
+import { postsCatHerramientas } from './blog/data/posts-cat-herramientas'
+import { postsCatPaises } from './blog/data/posts-cat-paises'
 
 export const metadata: Metadata = {
   title: 'TikTok Shop Academy — Aprende a Vender en TikTok Shop en Español',
@@ -82,6 +86,10 @@ function countByCategory(categoryName: string): number {
     ...Object.values(postsAfiliados3),
     ...Object.values(postsCatAfiliados),
     ...Object.values(postsVendedores),
+    ...Object.values(postsCatVendedores),
+    ...Object.values(postsCatLive),
+    ...Object.values(postsCatHerramientas),
+    ...Object.values(postsCatPaises),
   ]
   const fromDataCount = fromData.filter((p) => p.category === categoryName).length
   const staticCount = staticPostCategories.filter((c) => c === categoryName).length
