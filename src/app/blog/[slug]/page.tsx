@@ -46,7 +46,7 @@ No es una redirección a Amazon ni a ninguna web externa. Es un ecosistema compl
 ### ¿Cuándo llegó TikTok Shop a España y LatAm?
 
 - **España**: Lanzamiento oficial el **9 de diciembre de 2024**
-- **México**: Disponible desde 2023, el mercado más maduro de habla hispana
+- **México**: Lanzamiento oficial el **6 de febrero de 2025**, primer país de LatAm en tenerlo
 - **Brasil**: Lanzado en mayo de 2025, crecimiento de 1M$ a 46M$ de GMV mensual en solo 3 meses
 - **Colombia y Chile**: En expansión durante 2026
 
@@ -182,7 +182,7 @@ Es un modelo que no existía hace tres años en el mercado hispano. Y la ventana
 - **112.000 millones de dólares** de GMV proyectado en TikTok Shop para 2026
 - **58%** de los usuarios de TikTok ya ha comprado en la app
 - **10x** más conversión con Live Shopping vs e-commerce tradicional
-- **300%** de crecimiento en vendedores en México en 2025
+- **Primer país de LatAm** en lanzar TikTok Shop (febrero 2025)
 
 Estos números no son de una startup. Son de una plataforma respaldada por ByteDance, con más de 250.000 millones de dólares de valoración, que ha decidido convertir TikTok en el mayor marketplace de comercio social del mundo.
 
@@ -742,18 +742,18 @@ En nuestras clases gratuitas de los miércoles tratamos específicamente los cas
 
   'tiktok-shop-mexico-guia-2026': {
     title: 'TikTok Shop en México 2026: Guía Completa para Vendedores y Afiliados',
-    description: 'México es el mercado más maduro de TikTok Shop en LatAm. Guía actualizada con requisitos, comisiones, estrategias y cómo aprovechar el boom del comercio social en México.',
+    description: 'México fue el primer país de LatAm en tener TikTok Shop (febrero 2025). Guía actualizada con requisitos, comisiones, estrategias y cómo aprovechar el boom del comercio social en México.',
     category: 'Por países',
     readTime: '9 min',
     emoji: '🇲🇽',
     date: '2026-02-20',
     keywords: ['tiktok shop mexico 2026', 'como vender tiktok shop mexico', 'tiktok shop afiliado mexico', 'tiktok shop mexico requisitos'],
     content: `
-## TikTok Shop en México: el mercado más maduro de LatAm
+## TikTok Shop en México: el primer mercado de LatAm
 
-México fue uno de los primeros mercados de habla hispana en acceder a TikTok Shop, con un lanzamiento oficial en 2023. En 2026, ya tiene **más de 3 años de historia** en la plataforma, lo que lo convierte en el ecosistema más desarrollado y con más casos de éxito documentados en LatAm.
+México fue el **primer país de América Latina en tener TikTok Shop**, con lanzamiento oficial el 6 de febrero de 2025. En menos de dos años ya es el mercado hispanohablante con más vendedores activos, más afiliados y más casos de éxito documentados.
 
-El crecimiento ha sido extraordinario: desde 2023 hasta 2026, el número de vendedores activos en TikTok Shop México creció más de un **300%**.
+El crecimiento ha sido extraordinario: desde el lanzamiento en febrero de 2025 hasta finales de año, el número de vendedores activos creció de forma exponencial, convirtiendo a México en el referente del modelo para el resto de LatAm.
 
 ## Datos clave de TikTok Shop México en 2026
 

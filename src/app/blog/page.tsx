@@ -168,7 +168,7 @@ const allPosts = [
   {
     slug: 'tiktok-shop-mexico-guia-2026',
     title: 'TikTok Shop en México 2026: Guía Completa',
-    description: 'México es el mercado más maduro de TikTok Shop en LatAm. Requisitos, comisiones, estrategias locales y casos de éxito reales.',
+    description: 'México fue el primer país de LatAm en lanzar TikTok Shop (febrero 2025). Requisitos, comisiones, estrategias locales y casos de éxito reales.',
     category: 'Por países',
     readTime: '9 min',
     emoji: '🇲🇽',
