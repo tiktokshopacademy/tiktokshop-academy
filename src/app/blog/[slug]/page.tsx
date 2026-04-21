@@ -10,6 +10,8 @@ import { postsCatVendedores } from '../data/posts-cat-vendedores'
 import { postsCatLive } from '../data/posts-cat-live'
 import { postsCatHerramientas } from '../data/posts-cat-herramientas'
 import { postsCatPaises } from '../data/posts-cat-paises'
+import { postsCatPaises2 } from '../data/posts-cat-paises2'
+import { postsCatEstrategia2 } from '../data/posts-cat-estrategia2'
 
 const WHATSAPP_LINK = 'https://semanal.tiktokshopacademy.es/registro?utm_source=blog'
 
@@ -1318,7 +1320,7 @@ Si quieres que te ayudemos a decidir qué modelo es el mejor para ti, ven a la c
   },
 }
 
-const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsCatAfiliados, ...postsVendedores, ...postsCatVendedores, ...postsCatLive, ...postsCatHerramientas, ...postsCatPaises } as Record<string, typeof posts[keyof typeof posts]>
+const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsCatAfiliados, ...postsVendedores, ...postsCatVendedores, ...postsCatLive, ...postsCatHerramientas, ...postsCatPaises, ...postsCatPaises2, ...postsCatEstrategia2 } as Record<string, typeof posts[keyof typeof posts]>
 
 type Props = { params: { slug: string } }
 

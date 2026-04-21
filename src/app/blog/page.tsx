@@ -367,7 +367,55 @@ const allPosts = [
     emoji: '🤖',
     date: '2026-04-24',
   },
+  // --- VENDEDORES / ESTRATEGIA ---
+  {
+    slug: 'tiktok-shop-dropshipping-guia-2026',
+    title: 'TikTok Shop Dropshipping en España 2026: Guía Completa para Empezar',
+    description: 'Cómo hacer dropshipping en TikTok Shop en España: proveedores con almacén en Europa, tiempos de envío obligatorios, margen real y comparativa con el modelo de afiliados.',
+    category: 'Vendedores',
+    readTime: '11 min',
+    emoji: '📦',
+    date: '2026-04-26',
+  },
+  // --- EMPEZAR DESDE CERO ---
+  {
+    slug: 'como-crecer-en-tiktok-para-tiktok-shop',
+    title: 'Cómo Crecer en TikTok Rápido en 2026: Estrategia para Llegar a 1.500 Seguidores',
+    description: 'La guía práctica para crecer en TikTok desde cero y llegar a los 1.500 seguidores necesarios para activar TikTok Shop afiliados. Algoritmo, formatos, horarios y errores frecuentes.',
+    category: 'Empezar desde cero',
+    readTime: '12 min',
+    emoji: '📈',
+    date: '2026-04-26',
+  },
   // --- POR PAÍSES ---
+  {
+    slug: 'tiktok-shop-chile-guia-2026',
+    title: 'TikTok Shop en Chile 2026: Estado Actual, Qué Puedes Hacer y Cómo Prepararte',
+    description: 'TikTok Shop no está disponible aún en Chile. Qué sabemos de la expansión, qué puedes hacer hoy como creador o vendedor chileno y cómo prepararte para cuando llegue.',
+    category: 'Por países',
+    readTime: '8 min',
+    emoji: '🇨🇱',
+    date: '2026-04-25',
+  },
+  {
+    slug: 'tiktok-shop-argentina-guia-2026',
+    title: 'TikTok Shop en Argentina 2026: Estado Actual, Alternativas y Cómo Prepararse',
+    description: 'TikTok Shop no está disponible en Argentina en 2026. Qué sabemos, por qué Argentina tiene un desafío particular, qué alternativas tienes hoy y cómo prepararte.',
+    category: 'Por países',
+    readTime: '8 min',
+    emoji: '🇦🇷',
+    date: '2026-04-25',
+  },
+  {
+    slug: 'tiktok-shop-peru-guia-2026',
+    title: 'TikTok Shop en Perú 2026: Estado Real, Qué Funciona Hoy y Cómo Prepararse',
+    description: 'TikTok Shop no está disponible oficialmente en Perú. Estado real de la expansión, alternativas para creadores peruanos hoy y cómo prepararse para el lanzamiento.',
+    category: 'Por países',
+    readTime: '8 min',
+    emoji: '🇵🇪',
+    date: '2026-04-25',
+  },
+  // --- POR PAÍSES (anteriores) ---
   {
     slug: 'tiktok-shop-latam-paises-disponibles-2026',
     title: 'TikTok Shop en LatAm 2026: Qué Países lo Tienen y Cuándo Llega al Tuyo',
