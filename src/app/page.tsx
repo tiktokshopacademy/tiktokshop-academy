@@ -11,6 +11,7 @@ import { postsCatHerramientas } from './blog/data/posts-cat-herramientas'
 import { postsCatPaises } from './blog/data/posts-cat-paises'
 import { postsCatPaises2 } from './blog/data/posts-cat-paises2'
 import { postsCatEstrategia2 } from './blog/data/posts-cat-estrategia2'
+import { postsCatEstrategia3 } from './blog/data/posts-cat-estrategia3'
 
 export const metadata: Metadata = {
   title: 'TikTok Shop Academy — Aprende a Vender en TikTok Shop en Español',
@@ -94,6 +95,7 @@ function countByCategory(categoryName: string): number {
     ...Object.values(postsCatPaises),
     ...Object.values(postsCatPaises2),
     ...Object.values(postsCatEstrategia2),
+    ...Object.values(postsCatEstrategia3),
   ]
   const fromDataCount = fromData.filter((p) => p.category === categoryName).length
   const staticCount = staticPostCategories.filter((c) => c === categoryName).length

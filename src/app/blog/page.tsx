@@ -415,6 +415,35 @@ const allPosts = [
     emoji: '🇵🇪',
     date: '2026-04-25',
   },
+  // --- GUÍA BÁSICA ---
+  {
+    slug: 'tiktok-shop-devoluciones-reembolsos-guia',
+    title: 'Devoluciones y Reembolsos en TikTok Shop: Guía Completa 2026',
+    description: 'Cómo funcionan las devoluciones en TikTok Shop en España. Plazos, proceso paso a paso, quién paga el envío y qué hacer si hay disputa.',
+    category: 'Guía básica',
+    readTime: '9 min',
+    emoji: '↩️',
+    date: '2026-04-27',
+  },
+  // --- AFILIADOS ---
+  {
+    slug: 'como-encontrar-productos-virales-tiktok-shop',
+    title: 'Cómo Encontrar Productos Virales en TikTok Shop: Método Paso a Paso 2026',
+    description: 'El sistema que usan los mejores afiliados para encontrar productos ganadores antes que la competencia. Herramientas gratuitas, señales de viral y criterios de selección.',
+    category: 'Afiliados',
+    readTime: '11 min',
+    emoji: '🔍',
+    date: '2026-04-27',
+  },
+  {
+    slug: 'tiktok-shop-brasil-guia-2026',
+    title: 'TikTok Shop en Brasil 2026: El Mercado que Creció 26 Veces en 5 Meses',
+    description: 'TikTok Shop llegó a Brasil en mayo de 2025 y multiplicó su GMV ×26 en 5 meses. Datos reales, cómo funciona y qué significa para el resto de LatAm.',
+    category: 'Por países',
+    readTime: '9 min',
+    emoji: '🇧🇷',
+    date: '2026-04-27',
+  },
   // --- POR PAÍSES (anteriores) ---
   {
     slug: 'tiktok-shop-latam-paises-disponibles-2026',

@@ -10,6 +10,7 @@ import { postsCatHerramientas } from './blog/data/posts-cat-herramientas'
 import { postsCatPaises } from './blog/data/posts-cat-paises'
 import { postsCatPaises2 } from './blog/data/posts-cat-paises2'
 import { postsCatEstrategia2 } from './blog/data/posts-cat-estrategia2'
+import { postsCatEstrategia3 } from './blog/data/posts-cat-estrategia3'
 
 const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://tiktokshopacademy.co'
 
@@ -51,6 +52,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     ...postsCatPaises,
     ...postsCatPaises2,
     ...postsCatEstrategia2,
+    ...postsCatEstrategia3,
   }
 
   const dynamicPages = Object.entries(allDataPosts).map(([slug, post]) => ({

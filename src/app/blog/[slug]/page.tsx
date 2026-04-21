@@ -12,6 +12,7 @@ import { postsCatHerramientas } from '../data/posts-cat-herramientas'
 import { postsCatPaises } from '../data/posts-cat-paises'
 import { postsCatPaises2 } from '../data/posts-cat-paises2'
 import { postsCatEstrategia2 } from '../data/posts-cat-estrategia2'
+import { postsCatEstrategia3 } from '../data/posts-cat-estrategia3'
 
 const WHATSAPP_LINK = 'https://semanal.tiktokshopacademy.es/registro?utm_source=blog'
 
@@ -1320,7 +1321,7 @@ Si quieres que te ayudemos a decidir qué modelo es el mejor para ti, ven a la c
   },
 }
 
-const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsCatAfiliados, ...postsVendedores, ...postsCatVendedores, ...postsCatLive, ...postsCatHerramientas, ...postsCatPaises, ...postsCatPaises2, ...postsCatEstrategia2 } as Record<string, typeof posts[keyof typeof posts]>
+const allPosts = { ...posts, ...postsAfiliados, ...postsAfiliados2, ...postsAfiliados3, ...postsCatAfiliados, ...postsVendedores, ...postsCatVendedores, ...postsCatLive, ...postsCatHerramientas, ...postsCatPaises, ...postsCatPaises2, ...postsCatEstrategia2, ...postsCatEstrategia3 } as Record<string, typeof posts[keyof typeof posts]>
 
 type Props = { params: { slug: string } }
 
@@ -1441,9 +1442,12 @@ export default function BlogPost({ params }: Props) {
         <div className="mt-12">
           <h2 className="text-xl font-black text-gray-900 mb-6">Sigue aprendiendo</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-            {Object.entries(allPosts)
-              .filter(([slug]) => slug !== params.slug)
-              .slice(0, 4)
+            {(() => {
+              const others = Object.entries(allPosts).filter(([slug]) => slug !== params.slug)
+              const sameCategory = others.filter(([, p]) => p.category === post.category)
+              const different = others.filter(([, p]) => p.category !== post.category)
+              return [...sameCategory, ...different].slice(0, 4)
+            })()
               .map(([slug, p]) => (
                 <Link key={slug} href={`/blog/${slug}`} className="card p-5 group">
                   <div className="text-3xl mb-2">{p.emoji}</div>

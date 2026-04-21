@@ -11,6 +11,7 @@ import { postsCatHerramientas } from '../../data/posts-cat-herramientas'
 import { postsCatPaises } from '../../data/posts-cat-paises'
 import { postsCatPaises2 } from '../../data/posts-cat-paises2'
 import { postsCatEstrategia2 } from '../../data/posts-cat-estrategia2'
+import { postsCatEstrategia3 } from '../../data/posts-cat-estrategia3'
 
 const categoryMap: Record<string, { name: string; emoji: string; description: string }> = {
   empezar: {
@@ -74,6 +75,7 @@ function getAllPosts() {
     ...Object.entries(postsCatPaises).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
     ...Object.entries(postsCatPaises2).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
     ...Object.entries(postsCatEstrategia2).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
+    ...Object.entries(postsCatEstrategia3).map(([slug, p]) => ({ slug, title: p.title, description: p.description, category: p.category, readTime: p.readTime, emoji: p.emoji, date: p.date })),
   ]
   return [...staticPosts, ...fromData]
 }
