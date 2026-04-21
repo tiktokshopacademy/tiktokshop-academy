@@ -1438,8 +1438,26 @@ export default function BlogPost({ params }: Props) {
           </a>
         </div>
 
+        {/* Guías esenciales — enlazado interno */}
+        <div className="mt-12 bg-gray-50 rounded-2xl p-6">
+          <h2 className="text-lg font-black text-gray-900 mb-4">Guías esenciales de TikTok Shop</h2>
+          <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            {[
+              { slug: 'que-es-tiktok-shop', emoji: '🎯', title: '¿Qué es TikTok Shop? Guía Completa 2026' },
+              { slug: 'tiktok-shop-afiliado-guia-completa', emoji: '💰', title: 'Programa de Afiliados: Guía Completa' },
+              { slug: 'como-activar-tiktok-shop-afiliados', emoji: '✅', title: 'Cómo Activar TikTok Shop Afiliados' },
+              { slug: 'como-crear-tienda-tiktok-shop', emoji: '🏪', title: 'Cómo Crear tu Tienda en TikTok Shop' },
+            ].filter(g => g.slug !== params.slug).map((g) => (
+              <Link key={g.slug} href={`/blog/${g.slug}`} className="flex items-center gap-3 bg-white rounded-xl p-3 hover:bg-brand-50 transition-colors group border border-gray-100">
+                <span className="text-2xl">{g.emoji}</span>
+                <span className="text-sm font-semibold text-gray-700 group-hover:text-brand-600 transition-colors leading-tight">{g.title}</span>
+              </Link>
+            ))}
+          </div>
+        </div>
+
         {/* Artículos relacionados */}
-        <div className="mt-12">
+        <div className="mt-8">
           <h2 className="text-xl font-black text-gray-900 mb-6">Sigue aprendiendo</h2>
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             {(() => {

@@ -219,32 +219,81 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* CÓMO FUNCIONA */}
+      <section className="py-16 bg-white">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-2 text-center">Cómo empezar en TikTok Shop</h2>
+          <p className="text-gray-500 text-center mb-12">Tres pasos para pasar de cero a tus primeros ingresos</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="text-center">
+              <div className="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4">📚</div>
+              <div className="text-brand-500 font-black text-sm mb-2 uppercase tracking-wide">Paso 1</div>
+              <h3 className="font-black text-gray-900 text-lg mb-2">Aprende el modelo</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">Lee las guías del blog para entender cómo funciona TikTok Shop: qué es, cómo se gana dinero y qué requisitos necesitas.</p>
+              <Link href="/blog/que-es-tiktok-shop" className="text-brand-500 text-sm font-semibold mt-3 inline-block hover:underline">Empezar por aquí →</Link>
+            </div>
+            <div className="text-center">
+              <div className="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4">🎬</div>
+              <div className="text-brand-500 font-black text-sm mb-2 uppercase tracking-wide">Paso 2</div>
+              <h3 className="font-black text-gray-900 text-lg mb-2">Activa tu cuenta</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">Llega a 1.500 seguidores y activa el programa de afiliados. Empieza a etiquetar productos en tus vídeos y haz tus primeros lives.</p>
+              <Link href="/blog/como-activar-tiktok-shop-afiliados" className="text-brand-500 text-sm font-semibold mt-3 inline-block hover:underline">Cómo activarlo →</Link>
+            </div>
+            <div className="text-center">
+              <div className="w-14 h-14 bg-brand-50 rounded-2xl flex items-center justify-center text-2xl mx-auto mb-4">💸</div>
+              <div className="text-brand-500 font-black text-sm mb-2 uppercase tracking-wide">Paso 3</div>
+              <h3 className="font-black text-gray-900 text-lg mb-2">Escala tus ingresos</h3>
+              <p className="text-gray-500 text-sm leading-relaxed">Ven a las clases del miércoles para resolver dudas en directo, aprender estrategias avanzadas y crecer más rápido.</p>
+              <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="text-brand-500 text-sm font-semibold mt-3 inline-block hover:underline">Unirme a las clases →</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* PERFILES */}
+      <section className="py-16 bg-gray-50">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-2 text-center">¿Cuál es tu situación?</h2>
+          <p className="text-gray-500 text-center mb-10">Empieza por la guía que más se adapta a ti</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Link href="/blog/como-empezar-tiktok-shop-afiliado-sin-dinero" className="card p-6 group hover:border-brand-300">
+              <div className="text-4xl mb-3">🚀</div>
+              <h3 className="font-black text-gray-900 text-lg mb-2 group-hover:text-brand-500 transition-colors">Empiezo desde cero</h3>
+              <p className="text-gray-500 text-sm mb-4">Sin seguidores, sin inversión, sin experiencia. Te explico exactamente por dónde empezar.</p>
+              <span className="text-brand-500 font-semibold text-sm">Ver guía →</span>
+            </Link>
+            <Link href="/blog/tiktok-shop-afiliado-guia-completa" className="card p-6 group hover:border-brand-300">
+              <div className="text-4xl mb-3">💰</div>
+              <h3 className="font-black text-gray-900 text-lg mb-2 group-hover:text-brand-500 transition-colors">Quiero ser afiliado</h3>
+              <p className="text-gray-500 text-sm mb-4">Gana comisiones de hasta el 80% sin tener productos propios ni gestionar envíos.</p>
+              <span className="text-brand-500 font-semibold text-sm">Ver guía →</span>
+            </Link>
+            <Link href="/blog/como-crear-tienda-tiktok-shop" className="card p-6 group hover:border-brand-300">
+              <div className="text-4xl mb-3">🏪</div>
+              <h3 className="font-black text-gray-900 text-lg mb-2 group-hover:text-brand-500 transition-colors">Tengo productos propios</h3>
+              <p className="text-gray-500 text-sm mb-4">Abre tu tienda en TikTok Shop y vende con tráfico orgánico sin pagar publicidad.</p>
+              <span className="text-brand-500 font-semibold text-sm">Ver guía →</span>
+            </Link>
+          </div>
+        </div>
+      </section>
+
       {/* CLASE CTA BANNER */}
       <section className="py-16 bg-gradient-to-r from-green-500 to-emerald-600">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center text-white">
           <div className="text-5xl mb-4">📅</div>
-          <h2 className="text-3xl md:text-4xl font-black mb-4">Clases gratuitas cada miércoles</h2>
-          <p className="text-xl text-green-100 mb-8 max-w-2xl mx-auto">
-            Todos los miércoles a las 19h (hora Madrid) damos una clase en directo sobre TikTok Shop.
-            Gratis. Sin compromiso. Solo necesitas unirte al grupo de WhatsApp.
+          <h2 className="text-3xl md:text-4xl font-black mb-4">Clase gratuita este miércoles a las 19h</h2>
+          <p className="text-xl text-green-100 mb-6 max-w-2xl mx-auto">
+            Cada miércoles resolvemos dudas en directo, analizamos casos reales y compartimos las estrategias más actualizadas de TikTok Shop.
           </p>
-          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="bg-white text-green-600 font-bold py-4 px-8 rounded-xl hover:bg-green-50 transition-colors inline-block text-lg">
-            💬 Quiero unirme al grupo de WhatsApp
+          <div className="flex flex-col sm:flex-row gap-3 justify-center items-center mb-4">
+            <div className="flex items-center gap-2 text-green-100 text-sm"><span>✅</span> Completamente gratis</div>
+            <div className="flex items-center gap-2 text-green-100 text-sm"><span>✅</span> Sin compromiso</div>
+            <div className="flex items-center gap-2 text-green-100 text-sm"><span>✅</span> En directo con preguntas</div>
+          </div>
+          <a href={WHATSAPP_LINK} target="_blank" rel="noopener noreferrer" className="bg-white text-green-600 font-bold py-4 px-10 rounded-xl hover:bg-green-50 transition-colors inline-block text-lg mt-2">
+            📅 Reservar mi plaza gratuita →
           </a>
-          <p className="text-green-200 text-sm mt-4">Más de 500 personas ya asisten a las clases</p>
-        </div>
-      </section>
-
-      {/* EMAIL CAPTURE */}
-      <section className="py-16 bg-gray-50">
-        <div className="max-w-2xl mx-auto px-4 text-center">
-          <h2 className="text-2xl md:text-3xl font-black text-gray-900 mb-3">Recibe las mejores estrategias cada semana</h2>
-          <p className="text-gray-500 mb-8">Únete a más de 3.000 personas que reciben nuestro newsletter con novedades y estrategias de TikTok Shop.</p>
-          <form className="flex flex-col sm:flex-row gap-3 max-w-md mx-auto">
-            <input type="email" placeholder="tu@email.com" className="flex-1 px-4 py-3 rounded-xl border border-gray-200 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:border-transparent" />
-            <button type="submit" className="btn-primary whitespace-nowrap">Suscribirme gratis</button>
-          </form>
-          <p className="text-gray-400 text-xs mt-3">Sin spam. Cancela cuando quieras.</p>
         </div>
       </section>
     </>
